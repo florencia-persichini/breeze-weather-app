@@ -21,6 +21,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 5px;
+  border-bottom: 1px solid #f2f3fa;
+  padding: 0 0 35px 0;
 }
 
 .breeze-logo {
