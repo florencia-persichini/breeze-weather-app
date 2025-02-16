@@ -22,31 +22,37 @@
     <title>Breeze Weather</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="card-container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <main>
-      <div class="card-container">
+      <main>
         <div>
-          <h1>Paris</h1>
-          <p>
-            <span>Saturday 15:32</span>, <span>moderate rain </span
-            ><br />
-            Humidity: <strong>87%</strong>, Wind:
-            <strong>7.2km/h</strong>
-          </p>
+          <div>
+            <h1>Paris</h1>
+            <p>
+              <span>Saturday 15:32</span>, <span>moderate rain </span
+              ><br />
+              Humidity: <strong>87%</strong>, Wind:
+              <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div>
+            <span>☀️</span>
+            <span>24</span>
+            <span>°C</span>
+          </div>
         </div>
-        <div>
-          <span>☀️</span>
-          <span>24</span>
-          <span>°C</span>
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <footer>
       This project was coded by
