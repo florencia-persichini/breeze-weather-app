@@ -33,7 +33,7 @@ form {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  width: 400px;
+  width: 370px;
 }
 
 form input {
@@ -52,6 +52,7 @@ form input {
 .search-button {
   background: #2772db;
   color: white;
+  font-weight: 500;
   border: none;
   margin-left: 8px;
   transition: all 150ms ease-in-out;
@@ -60,6 +61,55 @@ form input {
 .search-button:hover {
   background: #4eb778;
   cursor: pointer;
+}
+
+main {
+  text-align: center;
+}
+
+.city-name {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 0;
+  padding: 35px 0 0 0;
+}
+
+.day-time {
+  font-size: 13px;
+}
+
+.current-temperature {
+  padding: 35px 0 35px 0;
+}
+
+.current-temp-icon {
+  font-size: 45px;
+  position: relative;
+  top: 0px;
+  right: 7px;
+}
+
+.current-temp-value {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.current-temp-unit {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  top: -18px;
+  left: -3px;
+}
+
+.weather-info {
+  font-size: 13px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+strong {
+  color: #4eb778;
 }
 
 footer {
