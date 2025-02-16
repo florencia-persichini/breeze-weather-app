@@ -61,3 +61,15 @@ form input {
   background: #09203f;
   cursor: pointer;
 }
+
+footer {
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
+
+footer a {
+  color: #2772db;
+}
