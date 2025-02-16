@@ -7,7 +7,6 @@
       content="width=device-width, initial-scale=1.0"
     />
 
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -19,25 +18,26 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="src/style.css" />
     <title>Breeze Weather</title>
   </head>
   <body>
     <div class="card-container">
-      <header>
-        <div>
-          <img
-            src="/Users/florenciapersichini/Documents/Curso Desarrollo Web/3 Plus/breeze-weather-app/images/Breeze logo horizontal.png"
-            alt="breeze-weather-logo"
-            width="150px"
-          />
-        </div>
-        <form>
+      <header class="header-container">
+        <img
+          src="/Users/florenciapersichini/Documents/Curso Desarrollo Web/3 Plus/breeze-weather-app/images/Breeze logo horizontal.png"
+          alt="breeze-weather-logo"
+          class="breeze-logo"
+        />
+
+        <form class="search-bar-container">
           <input
             type="search"
             placeholder="Enter a city..."
+            class="search-input"
             required
           />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
 
