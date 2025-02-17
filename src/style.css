@@ -26,7 +26,7 @@ body {
 
 .breeze-logo {
   margin: 0;
-  width: 180px;
+  width: 192px;
 }
 
 form {
@@ -59,7 +59,7 @@ form input {
 }
 
 .search-button:hover {
-  background: #4eb778;
+  background: #193352;
   cursor: pointer;
 }
 
@@ -76,10 +76,11 @@ main {
 
 .day-time {
   font-size: 13px;
+  margin-top: 5px;
 }
 
 .current-temperature {
-  padding: 20px;
+  padding: 10px;
 }
 
 .current-temp-icon {
