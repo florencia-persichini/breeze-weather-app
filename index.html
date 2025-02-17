@@ -22,7 +22,6 @@
           alt="breeze-weather-logo"
           class="breeze-logo"
         />
-
         <form class="search-bar-container" id="search-form">
           <input type="search" placeholder="Enter a city..." class="search-input" id="search-input" required />
           <input type="submit" value="Search" class="search-button" />
@@ -30,24 +29,16 @@
       </header>
 
       <main>
-        <div>
-          <div>
-            <h1 class="city-name" id="city-name"></h1>
-            <div class="day-time" id="day-time"></div>
-            <div class="current-temperature">
-              <span id="icon"></span>
-              <span class="current-temp-value" id="current-temp-value"></span>
-              <span class="current-temp-unit">°C</span>
-            </div>
-            <div class="weather-info">
-              <span>Feels like: <strong id="feels-like"></strong>,</span>
-              <span>Condition: <strong id="weather-description"></strong></span>
-              <div>
-                Humidity: <strong id="humidity"></strong>, Wind speed:
-                <strong id="wind-speed"></strong>
-              </div>
-            </div>
-          </div>
+        <h1 class="city-name" id="city-name"></h1>
+        <div class="day-time" id="day-time"></div>
+        <div class="current-temperature">
+          <span id="icon"></span>
+          <span class="current-temp-value" id="current-temp-value"></span>
+          <span class="current-temp-unit">°C</span>
+        </div>
+        <div class="weather-info">
+          <div>Feels like: <strong id="feels-like"></strong>,Condition: <strong id="weather-description"></strong></div>
+          <div>Humidity: <strong id="humidity"></strong>, Wind speed:<strong id="wind-speed"></strong></div>
         </div>
       </main>
     </div>
@@ -60,6 +51,7 @@
       and
       <a href="https://breezeweather.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
+
     <script src="src/script.js"></script>
   </body>
 </html>
