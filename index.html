@@ -2,21 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 
@@ -34,13 +24,7 @@
         />
 
         <form class="search-bar-container" id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city..."
-            class="search-input"
-            id="search-input"
-            required
-          />
+          <input type="search" placeholder="Enter a city..." class="search-input" id="search-input" required />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
@@ -49,20 +33,18 @@
         <div>
           <div>
             <h1 class="city-name" id="city-name"></h1>
-            <div class="day-time">Saturday 15:32 h.</div>
+            <div class="day-time" id="day-time"></div>
             <div class="current-temperature">
               <span class="current-temp-icon">☀️</span>
-              <span
-                class="current-temp-value"
-                id="current-temp-value"
-              ></span>
+              <span class="current-temp-value" id="current-temp-value"></span>
               <span class="current-temp-unit">°C</span>
             </div>
             <div class="weather-info">
-              <div>Moderate rain</div>
+              <span>Feels like: <strong id="feels-like"></strong>,</span>
+              <span>Condition: <strong id="weather-description"></strong></span>
               <div>
-                Humidity: <strong>87%</strong>, Wind:
-                <strong>7.2km/h</strong>
+                Humidity: <strong id="humidity"></strong>, Wind speed:
+                <strong id="wind-speed"></strong>
               </div>
             </div>
           </div>
@@ -72,22 +54,11 @@
 
     <footer>
       This project was coded by
-      <a
-        href="https://github.com/florencia-persichini"
-        target="_blank"
-        >Florencia Persichini</a
-      >
+      <a href="https://github.com/florencia-persichini" target="_blank">Florencia Persichini</a>
       and is
-      <a
-        href="https://github.com/florencia-persichini/breeze-weather-app.git"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
+      <a href="https://github.com/florencia-persichini/breeze-weather-app.git" target="_blank"> open-sourced on GitHub</a>
       and
-      <a href="https://breezeweather.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
+      <a href="https://breezeweather.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
     <script src="src/script.js"></script>
   </body>
