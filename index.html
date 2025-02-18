@@ -29,16 +29,22 @@
       </header>
 
       <main>
-        <h1 class="city-name" id="city-name"></h1>
-        <div class="day-time" id="day-time"></div>
-        <div class="current-temperature">
-          <span id="icon"></span>
-          <span class="current-temp-value" id="current-temp-value"></span>
-          <span class="current-temp-unit">°C</span>
+        <div class="current-weather">
+          <h1 class="city-name" id="city-name"></h1>
+          <div class="day-time" id="day-time"></div>
+          <div class="current-temperature">
+            <span id="icon"></span>
+            <span class="current-temp-value" id="current-temp-value"></span>
+            <span class="current-temp-unit">°C</span>
+          </div>
+          <div class="weather-info">
+            <div>Feels like: <strong id="feels-like"></strong>,Condition: <strong id="weather-description"></strong></div>
+            <div>Humidity: <strong id="humidity"></strong>, Wind speed:<strong id="wind-speed"></strong></div>
+          </div>
         </div>
-        <div class="weather-info">
-          <div>Feels like: <strong id="feels-like"></strong>,Condition: <strong id="weather-description"></strong></div>
-          <div>Humidity: <strong id="humidity"></strong>, Wind speed:<strong id="wind-speed"></strong></div>
+
+        <div class="forecast" id="forecast"></div>
+
         </div>
       </main>
     </div>
